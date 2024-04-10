@@ -1,0 +1,26 @@
+.Box{
+  
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+  
+  }
+  
+  .Key {
+    background-color: rgb(47, 133, 237);
+    border:2px solid black;
+    border-radius: 120px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .Key:hover{
+    border:2px solid #c9d9e2;
+    background: #c9d9e2;
+  }
+  
