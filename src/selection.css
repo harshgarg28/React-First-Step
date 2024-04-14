@@ -1,0 +1,36 @@
+.selection-container {
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20vh;
+}
+
+button.seat-block {
+    background-color: #4caf50;
+    color: white;
+    padding: 5vh;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    }
+    
+    /* button.seat-block:hover {
+    background-color: #45a049;
+    } */
+
+
+button.selected{
+    background-color: #af4e4c;
+    color: white;
+    padding: 5vh;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}

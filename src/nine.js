@@ -1,26 +1,23 @@
-import React from 'react'
+import React from 'react';
 import './nine.css';
 
-export const nineCircles = () => {
+const Nine = () => {
   return (
     <div>
-
-    <h1>Circles</h1>
-
-    <div class="Box">
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
-        <div class="Key"></div>
+      <h1>Circles</h1>
+      <div className="Box">
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+        <div className="Key"></div>
+      </div>
     </div>
+  );
+};
 
-
-
-    </div>
-  )
-}
+export default Nine;
