@@ -14,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+#### In the src folder you will find there are various components made, to add them the App.js will need to be manually edited to display different projects.
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
