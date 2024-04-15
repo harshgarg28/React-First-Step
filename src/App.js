@@ -5,7 +5,13 @@ import './App.css';
 // import Todo from './Components/todo.js';
 // import Main from './Components/mealapi.js';
 import Calculator from './Components/calculator.js';
-
+// import Toggleclr from './Components/togglclr.js';
+// import HiddenSearchBar from './Components/HiddenSearch.js';
+// import Testimonial from './Components/testimonial.js';
+// import Accordion from './Components/accordian.js';
+// import {accordionData} from './Components/content.js'
+// import Validate from './Components/Validate.js';
+// import Countries from './Components2/countries.js';
 
 function App() {
 
@@ -15,13 +21,25 @@ function App() {
   return (
     <div className="App">
 
-     {/* <Ticket /> */}
+    {/* <Ticket /> */}
     {/* <Counter /> */}
     {/* <Todo /> */}
+    {/* <Main /> */}
+    <Calculator />
+    {/* <Toggleclr/> */}
+    {/* <HiddenSearchBar/> */}
+    {/* <Testimonial /> */}
 
-  {/* <Main /> */}
+    {/* <div className='accordion'>{
+        accordionData.map(({title,content})=>{
+          return  <Accordion title={title} content={content} key={Math.random()*100} />
+        })
+    }
+    </div> */}
 
-  <Calculator />
+    {/* <Validate /> */}
+    {/* <Countries /> */}
+
 
     </div>
   );

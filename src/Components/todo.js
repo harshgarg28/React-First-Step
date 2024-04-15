@@ -3,10 +3,8 @@ import { useState } from 'react';
 import './todo.css'
 
 const Todo = () => {
-
     const [todos, setTodos] = useState([]);
     const [input, setInput] = useState("");
-
 
     const handleSubmit = () => {
         setTodos( (todos) => 
@@ -17,14 +15,9 @@ const Todo = () => {
                 );
                 setInput('');
             };
-        
-    
 
     const removeTodo = (id)=>
-        setTodos((todos)=>todos.filter((t)=>t.id!=id));
-
-
-
+        setTodos((todos)=>todos.filter((t)=>t.id!==id));
 
   return (
     <>
